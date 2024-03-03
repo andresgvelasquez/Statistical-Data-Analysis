@@ -116,6 +116,8 @@ Once you have set up the virtual environment and installed the dependencies, you
 
 - The maximum spending for Surf plan is $590.37 USD compared to the Ultimate plan's maximum of $182 USD. Surf plan users tend to spend more.
 
+For this reason, we recommend investing in the Ultimate plan. It yields higher average revenue and demonstrates greater stability.
+
 **Internet Consumption**  
 
 The behavior varies according to the plan.
