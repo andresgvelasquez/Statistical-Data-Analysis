@@ -94,3 +94,68 @@ Then, you need to install the dependencies:
 pip install -r requirements.txt
 ```
 Once you have set up the virtual environment and installed the dependencies, you can run the project.
+
+## Conclusions
+
+**Hypothesis Testing**
+1. After conducting a t-test, it was found that there is a significant difference in the average revenue from users between different call plans. Therefore, the null hypothesis, which states that the average revenue from users of the call plans is the same, is rejected.
+
+2. However, when comparing the average revenue of users in the NY-NJ area with that of users in other regions using a t-test, there was not enough evidence to reject the null hypothesis. This suggests that there are likely differences in the average revenue between the NY-NJ region and the rest of the regions.
+
+### **User Behavior**
+
+**Income**
+
+- The average revenue for the Surf plan is $60.70 USD, while for the Ultimate plan it is $72.31 USD. This suggests that Ultimate plan users, on average, only pay the monthly fee, whereas Surf plan users tend to pay more due to exceeding service limits, nearly three times the monthly fee. Nevertheless, the average price of the Surf plan is still lower than that of the Ultimate plan.
+
+- The standard deviation for the Surf plan is $55.38 USD, whereas for the Ultimate plan it is $11.39 USD. Values are less dispersed in the Surf plan. Ultimate plan users tend to be more consistent in their monthly spending.
+
+- 75% of Ultimate plan users spend $70 USD (only the monthly fee), while 25% of Surf plan users spend $20 USD (only the monthly fee).
+
+- There is a 25% of users in the Surf plan who spend more than the equivalent of the monthly fee for the Ultimate plan ($70 USD).
+
+- The maximum spending for Surf plan is $590.37 USD compared to the Ultimate plan's maximum of $182 USD. Surf plan users tend to spend more.
+
+**Internet Consumption**  
+
+The behavior varies according to the plan.
+
+- The mean for Surf is 14.59 GB and for Ultimate is 16.34 GB.
+- Users with the Ultimate plan tend to use fewer megabytes in total per month until February, after which Surf plan users consume more gigabytes (due to there being more Surf plan users than Ultimate plan users).
+- On average, Surf plan users consume slightly more gigabytes in the months of June and July. The Ultimate plan surpasses in other months. For February, March, and April, there is a significant difference of approximately 20% more than the Surf plan.
+- The distribution of both plans exhibits a right-skewed behavior (the upper whisker of the boxplot is longer than the lower one).
+- No outliers are observed.
+
+**Messages**
+
+The behavior varies according to the plan.
+
+- Both datasets for the two plans exhibit right-skewed data.
+- The mean for Ultimate is 2285 messages and for Surf is 4051 messages.
+- Users with the Ultimate plan tend to use fewer messages in total until March, after which Surf plan users start sending messages (simply because there are twice as many Surf plan users as Ultimate plan users).
+- Analyzing the average number of messages per plan, it was found that Surf plan users send more messages on average per month for all months, ranging from 15% to 80% larger compared to the Ultimate plan average.
+- The distribution of both plans exhibits right-skewed behavior (the upper whisker of the boxplot is longer than the lower one).
+- It appears that the Surf plan has more dispersion of values, as indicated by the longer whiskers.
+- No outliers are observed.
+- The demand for messages increases each month. In December, the demand for messages in the Surf plan is almost double that of the Ultimate plan.
+
+
+**Calls**
+
+User behavior clearly varies according to the plan.
+
+- Users with the Ultimate plan tend to use fewer minutes in total until February, after which Surf plan users consume more minutes. This occurs because the number of Surf plan users is approximately twice that of the Ultimate plan.
+
+- Analyzing the average minutes per month per plan:
+    1. Surf plan is slightly higher in the months: January, March, April, June, July, and December.
+    2. Ultimate plan is superior (25% higher) than Surf plan in February and slightly higher in other months.
+
+- The distribution of both plans exhibits right-skewed behavior (the upper whisker of the boxplot is longer than the lower one).
+
+- The mean of the Surf plan in call minutes is around 56,000, while for the Ultimate plan it is around 25,000.
+
+- It appears that the Surf plan has more dispersion of values, as indicated by the longer whiskers.
+
+- No outliers are observed.
+
+- As the months pass, the demand increases. By December, the difference in demand is almost double, with the Surf plan being the highest consumer (due to the existence of more Surf plan users).
